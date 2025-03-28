@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- displays site properly based on user's device -->
+
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="32x32"
+         href="./images/favicon-32x32.png"
+      />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap"
+         rel="stylesheet"
+      />
+      <link href="./dist/output.css" rel="stylesheet" />
+      <title>Frontend Mentor | Time tracking dashboard</title>
+   </head>
+   <body
+      class="bg-[#060631] min-h-screen font-custom text-[18px] flex justify-center items-center"
+   >
+      <div class="text-white grid gap-6 grid-cols-4 min-h-[300px] w-[680px]">
+         <header class="row-start-1 row-end-3 h-[350px]">
+            <div
+               class="bg-[#5b61f7] rounded-[10px] h-[324px] pt-8 px-4 w-[160px] relative z-10"
+            >
+               <img
+                  class="w-[50px] mb-[20px]"
+                  src="/images/image-jeremy.png"
+                  alt="Photo"
+               />
+               <span class="text-[#bebbbb80] text-[13px]">Report for</span>
+               <h1 class="text-white text-[30px] pb-[20px]">Jeremy Robson</h1>
+            </div>
+            <ul
+               class="bg-[#242452] rounded-[10px] h-[117px] p-4 relative w-[160px] bottom-4 z-0"
+            >
+               <li class="text-[#bebbbb80] text-[14px] mt-4 hover:text-white">
+                  <button>Daily</button>
+               </li>
+               <li class="text-[#bebbbb80] text-[14px] mt-2 hover:text-white">
+                  <button>Weekly</button>
+               </li>
+               <li class="text-[#bebbbb80] text-[14px] mt-2 hover:text-white">
+                  <button>Monthly</button>
+               </li>
+            </ul>
+         </header>
+
+         <section class="bg-[#242452] rounded-[10px] h-[200px]">
+            <div class="bg-[#eb7b5f] rounded-[10px] h-[60px] relative z-0">
+               <img
+                  class="w-[50px] absolute right-0"
+                  src="images/icon-work.svg"
+                  alt=""
+               />
+            </div>
+            <div
+               class="bg-[#242452] rounded-[10px] h-[163px] cursor-pointer hover:bg-[#4a4aa2] p-4 relative z-10 bottom-6"
+            >
+               <img
+                  class="absolute right-5 top-6 cursor-pointer"
+                  src="images/icon-ellipsis.svg"
+                  alt=""
+               />
+               <p class="text-[14px] font-semibold">Work</p>
+               <h2 class="text-center text-[36px] mt-1 mb-1">32hrs</h2>
+               <span class="text-[#bebbbb80] text-[13px] font-bold"
+                  >Last Week-36hrs</span
+               >
+            </div>
+         </section>
+
+         <section class="bg-[#242452] rounded-[10px] h-[200px]">
+            <div class="bg-[#5fd8eb] rounded-[10px] h-[60px] relative z-0">
+               <img
+                  class="w-[50px] absolute right-0"
+                  src="images/icon-play.svg"
+                  alt=""
+               />
+            </div>
+            <div
+               class="bg-[#242452] rounded-[10px] h-[163px] cursor-pointer hover:bg-[#4a4aa2] p-4 relative z-10 bottom-6"
+            >
+               <img
+                  class="absolute right-5 top-6 cursor-pointer"
+                  src="images/icon-ellipsis.svg"
+                  alt=""
+               />
+               <p class="text-[14px] font-semibold">Play</p>
+               <h2 class="text-center text-[36px] mt-1 mb-1">10hrs</h2>
+               <span class="text-[#bebbbb80] text-[13px] font-bold"
+                  >Last Week-8hrs</span
+               >
+            </div>
+         </section>
+
+         <section class="bg-[#242452] rounded-[10px] h-[200px]">
+            <div class="bg-[#9b3854] rounded-[10px] h-[60px] relative z-0">
+               <img
+                  class="w-[50px] absolute right-0"
+                  src="images/icon-study.svg"
+                  alt=""
+               />
+            </div>
+            <div
+               class="bg-[#242452] rounded-[10px] h-[163px] cursor-pointer hover:bg-[#4a4aa2] p-4 relative z-10 bottom-6"
+            >
+               <img
+                  class="absolute right-5 top-6 cursor-pointer"
+                  src="images/icon-ellipsis.svg"
+                  alt=""
+               />
+               <p class="text-[14px] font-semibold">Study</p>
+               <h2 class="text-center text-[36px] mt-1 mb-1">32hrs</h2>
+               <span class="text-[#bebbbb80] text-[13px] font-bold"
+                  >Last Week-7hrs</span
+               >
+            </div>
+         </section>
+
+         <section class="bg-[#242452] rounded-[10px] h-[200px]">
+            <div class="bg-[#2dd68a] rounded-[10px] h-[60px] relative z-0">
+               <img
+                  class="w-[50px] absolute right-0"
+                  src="images/icon-exercise.svg"
+                  alt=""
+               />
+            </div>
+            <div
+               class="bg-[#242452] rounded-[10px] h-[163px] cursor-pointer hover:bg-[#4a4aa2] p-4 relative z-10 bottom-6"
+            >
+               <img
+                  class="absolute right-5 top-6 cursor-pointer"
+                  src="images/icon-ellipsis.svg"
+                  alt=""
+               />
+               <p class="text-[14px] font-semibold">Exercise</p>
+               <h2 class="text-center text-[36px] mt-1 mb-1">4hrs</h2>
+               <span class="text-[#bebbbb80] text-[13px] font-bold"
+                  >Last Week-5hrs</span
+               >
+            </div>
+         </section>
+
+         <section class="bg-[#242452] rounded-[10px] h-[200px]">
+            <div class="bg-[#6b3185] rounded-[10px] h-[60px] relative z-0">
+               <img
+                  class="w-[50px] absolute right-0"
+                  src="images/icon-social.svg"
+                  alt=""
+               />
+            </div>
+            <div
+               class="bg-[#242452] rounded-[10px] h-[163px] cursor-pointer hover:bg-[#4a4aa2] p-4 relative z-10 bottom-6"
+            >
+               <img
+                  class="absolute right-5 top-6 cursor-pointer"
+                  src="images/icon-ellipsis.svg"
+                  alt=""
+               />
+               <p class="text-[14px] font-semibold">Social</p>
+               <h2 class="text-center text-[36px] mt-1 mb-1">5hrs</h2>
+               <span class="text-[#bebbbb80] text-[13px] font-bold"
+                  >Last Week-10hrs</span
+               >
+            </div>
+         </section>
+
+         <section class="bg-[#242452] rounded-[10px] h-[200px]">
+            <div class="bg-[#e8ca21] rounded-[10px] h-[60px] relative z-0">
+               <img
+                  class="w-[50px] absolute right-0"
+                  src="images/icon-self-care.svg"
+                  alt=""
+               />
+            </div>
+            <div
+               class="bg-[#242452] rounded-[10px] h-[163px] cursor-pointer hover:bg-[#4a4aa2] p-4 relative z-10 bottom-6"
+            >
+               <img
+                  class="absolute right-5 top-6 cursor-pointer"
+                  src="images/icon-ellipsis.svg"
+                  alt=""
+               />
+               <p class="text-[14px] font-semibold">Self Care</p>
+               <h2 class="text-center text-[36px] mt-1 mb-1">2hrs</h2>
+               <span class="text-[#bebbbb80] text-[13px] font-bold"
+                  >Last Week-2hrs</span
+               >
+            </div>
+         </section>
+      </div>
+   </body>
+</html>
